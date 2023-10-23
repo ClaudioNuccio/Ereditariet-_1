@@ -1,7 +1,9 @@
+
+
 public class Forma {
-    private int a;
-    private int b;
-    private int area;
+    protected int a;
+    protected int b;
+    protected int area;
     public void calcoloArea () {
         this.area = (this.a* this.b)/2;
         System.out.println("L'area della forma è "+ this.getArea());
