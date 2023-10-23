@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Triangolo triangolo = new Triangolo(10,5);
+        Rettangolo rettangolo = new Rettangolo(10,5);
+        triangolo.calcoloArea();
+        rettangolo.calcoloArea();
     }
 }
